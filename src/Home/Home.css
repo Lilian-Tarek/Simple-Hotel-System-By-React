@@ -1,0 +1,47 @@
+ .main-bg
+{
+ height: calc(100vh - 63px);
+ background-size:cover !important;
+ background-repeat: no-repeat !important;
+}
+.header
+{
+    background-color: rgba(0, 0, 0, 0.481);
+}
+h1::before,
+h2::before
+{
+    position: absolute;
+    top: 120%;
+    content:"";
+    height: 3px;
+    background-color: var(--primaryColor);
+    width:200px;
+left: 50%;
+transform: translateX(-50%);
+
+}
+.bottom
+{
+    background-color: var(--darkGrey);
+}
+.featured img
+{
+    cursor: pointer;
+}
+.overlay
+{
+    background-color: rgba(0, 0, 0, 0.562);
+    top: 100%;
+    transition: all 1s ease;
+}
+.featured-room:hover .overlay
+{
+top: 0;
+}
+.price
+{
+  border-radius:  30% 70% 100% 0% / 0% 0% 100% 100% ;
+  padding: 10px 30px 10px 15px;
+  text-align: start !important;
+}

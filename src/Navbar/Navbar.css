@@ -1,0 +1,4 @@
+.navbar-toggler svg
+{
+    color: var(--primaryColor) !important;
+}
